@@ -6,22 +6,6 @@
 				<column>
 					<block id="tlcInfo" name="Основные сведения">
 						<rows>
-						    <row>
-								<column>
-									<block id="11" name="Учебный блок">
-										<rows>
-											<row>
-												<column>
-													<field fieldType="field" key="|Document|Поле_1" name="Поле 1" valueType="longtext" />
-												</column>
-												<column>
-													<field fieldType="field" key="|Document|Поле_2" name="Поле 2" valueType="boolean" />
-												</column>				  
-											</row>
-										</rows>
-									</block>
-                                </column> 
-                             </row>
 							<row>
 								<column>
 									<block id="14" name="Общие сведения">
@@ -67,6 +51,22 @@
 									</block>
 								</column>
 							</row>
+							<row>
+								<column>
+									<block id="11" name="Учебный блок">
+										<rows>
+											<row>
+												<column>
+													<field fieldType="field" key="|Document|Поле_1" name="Поле 1" valueType="longtext" />
+												</column>
+												<column>
+													<field fieldType="field" key="|Document|Поле_2" name="Поле 2" valueType="boolean" />
+												</column>				  
+											</row>
+										</rows>
+									</block>
+                                </column> 
+                             </row>
 							<row>
 								<column>
 									<field fieldType="field"  isLabel="true"  />
