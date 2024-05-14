@@ -203,7 +203,7 @@
 		</field>
 	</block>
 	<block name="Учебный раздел" yearRequisite="integer_Год" selectedYear="current">	
-	    <field name="MyPoiskFolder.xml" value="Тестовая поисковая папка" >
+	    <field name="MyPoiskFolder" value="Тестовая поисковая папка" >
 			<access>
 				<workgroup name="Инициаторы"/> 
 				<workgroup name="Бюджетный комитет"/> 
