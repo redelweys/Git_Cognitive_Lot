@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <root>	
 	<block name="Позиции плана закупок" yearRequisite="integer_Год_закупки" selectedYear="current">
 		<field name="LotMy223" value="Мои" >
