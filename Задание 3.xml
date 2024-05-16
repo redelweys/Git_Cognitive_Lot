@@ -8,6 +8,20 @@
 <Buttons>
 	<Location name="PlanningMenu">
 		
+		<Button name="Создать таблицу распределения" displayName="Создать новый документ">
+			<Action type="Register">
+				<FlowName value="Таблица Председателей" />
+			</Action>
+			<Visibility>
+				<Rules>
+					<And>
+						<WhenHttpGetParamEquals param="searchType" value="DistributionOfManagers" />
+						<WhenHttpGetParamEquals param="searchBlock" value="Распределение зам. Пред." />
+					</And>
+				</Rules>
+			</Visibility>
+		</Button>
+
 		<Button name="Создать новый документ" displayName="Создать новый документ">
 			<Action type="Register">
 				<FlowName value="Заявки участников 223ФЗ" />
